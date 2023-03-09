@@ -85,8 +85,6 @@ p {
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: var(--background-second-color);
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .header-box {
   display: flex;
@@ -117,6 +115,7 @@ p {
 }
 
 .header-link {
+  display: block;
   position: relative;
   padding-top: 24px;
   padding-bottom: 24px;
