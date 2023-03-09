@@ -20,7 +20,7 @@
         <nav class="nav-container">
           <a class="logotype" href=./index.html> <span class="logo-first-color">Web</span>Studio </a>
           <ul class="nav-list list" >
-            <li class="item"><a class="header-link" href="./index.html"> Studio </a></li>
+            <li class="item"><a class="header-link currently" href="./index.html"> Studio </a></li>
             <li class="item"><a class="header-link" href="./portfolio.html"> Portfolio </a></li>
             <li class="item"><a class="header-link" href="#"> Contacts </a></li>
           </ul>
@@ -38,7 +38,7 @@
     <section class="hero">
       <div class="container hero-container">
         <h1 class="hero-header"> Effective Solutions for Your Business </h1>
-        <button class="hero-btn" type=button>Order Service</button>
+        <button  data-modal-open class="hero-btn" type=button>Order Service</button>
       </div>
     </section>
     <!--=========================about============================ -->
@@ -344,5 +344,14 @@
       </div> 
     </div>
   </footer>
+  <!-- ----------------------modal======================= -->
+  <div data-modal class="backdrop is-hidden">
+    <div class="modal">
+      <button  data-modal-close class="modal-close">
+        <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 32 32"><path d="M32 3.224l-3.224-3.224-12.776 12.776-12.776-12.776-3.224 3.224 12.776 12.776-12.776 12.776 3.224 3.224 12.776-12.776 12.776 12.776 3.224-3.224-12.776-12.776 12.776-12.776z"></path></svg>
+      </button>
+    </div>
+  </div>
+  <script src="./JS/modal.js"></script>
 </body>
 </html>
